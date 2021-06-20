@@ -1,0 +1,38 @@
+{
+  "name": "mn-profile-server",
+  "version": "1.0.0",
+  "description": "Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./",
+    "dev": "nodemon ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Navaxa/mn-profile-server.git"
+  },
+  "keywords": [
+    "Server",
+    "backend",
+    "API"
+  ],
+  "author": "Miguel Nava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Navaxa/mn-profile-server/issues"
+  },
+  "homepage": "https://github.com/Navaxa/mn-profile-server#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "juice": "^8.0.0",
+    "nodemailer": "^6.6.2",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
